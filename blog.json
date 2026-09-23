@@ -10,5 +10,11 @@
         "author": "Jane Doe",
         "title": "Second Post",
         "content": "This is another post."
+    },
+    {
+        "id": 3,
+        "author": "Flow",
+        "title": "Nostalgia",
+        "content": "Nostalgia describes a feeling that relates to our past. This means, for each and everyone of us, it is an unique experience and it has different triggers for each individual human."
     }
 ]

@@ -7,6 +7,12 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
+    <h1>Welcome to My Flask Blog!</h1>
+
+    <a href="{{ url_for('add') }}">Add a New Post</a>
+
+    <br><br>
+
     {% for post in posts %}
         <div class="post">
             <h2>{{ post.title }}</h2>
@@ -14,5 +20,6 @@
             <p>{{ post.content }}</p>
         </div>
     {% endfor %}
+
 </body>
 </html>
