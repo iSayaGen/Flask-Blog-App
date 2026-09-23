@@ -1,8 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
 # Environment variables
 .env
+.env.*
 
-# Python virtual environment
-.venv/
+# IDE
+.idea/
+.vscode/
 
-# Python bytecode cache
-__pycache__/
+# macOS
+.DS_Store
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Flask
+instance/
