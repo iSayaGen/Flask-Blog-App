@@ -28,5 +28,11 @@
         "author": "Flow",
         "title": "Success",
         "content": "Changing this blog post was successful!"
+    },
+    {
+        "id": 6,
+        "author": "Flow",
+        "title": "Final Words",
+        "content": "Thank you for taking your time to check my code and giving me some feedback! :)"
     }
 ]
